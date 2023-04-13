@@ -1,0 +1,62 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: em1: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 1500 qdisc mq master bnd0 state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+3: em2: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 1500 qdisc mq master bnd0 state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+4: p3p1: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 1500 qdisc mq master bnd1 state UP group default qlen 1000
+    link/ether 5c:6f:69:53:91:70 brd ff:ff:ff:ff:ff:ff
+5: em3: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 1500 qdisc mq master bnd0 state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+6: p3p2: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 1500 qdisc mq master bnd1 state UP group default qlen 1000
+    link/ether 5c:6f:69:53:91:70 brd ff:ff:ff:ff:ff:ff
+7: em4: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 1500 qdisc mq master bnd0 state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+8: vstorage-iscsi: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 46:f7:d1:cc:19:4d brd ff:ff:ff:ff:ff:ff
+9: venet0: <BROADCAST,POINTOPOINT,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default 
+    link/void 
+    inet6 fe80::1/128 scope link 
+       valid_lft forever preferred_lft forever
+10: host-routed: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 72:52:b9:80:28:dd brd ff:ff:ff:ff:ff:ff
+11: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether 52:54:00:33:3e:91 brd ff:ff:ff:ff:ff:ff
+    inet 10.37.130.2/24 brd 10.37.130.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+    inet6 fdb2:2c26:f4e4::1/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5054:ff:fe33:3e91/64 scope link 
+       valid_lft forever preferred_lft forever
+12: virbr0-nic: <BROADCAST,MULTICAST> mtu 1500 qdisc mq master virbr0 state DOWN group default qlen 1000
+    link/ether 52:54:00:33:3e:91 brd ff:ff:ff:ff:ff:ff
+6619: bnd0: <BROADCAST,MULTICAST,MASTER,UP,LOWER_UP> mtu 1500 qdisc noqueue master br0 state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::3673:5aff:fe9f:b8fd/64 scope link 
+       valid_lft forever preferred_lft forever
+6620: bnd0.1306@bnd0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master br-bnd0.1306 state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+6621: br-bnd0.1306: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+    inet 10.135.6.200/24 brd 10.135.6.255 scope global noprefixroute br-bnd0.1306
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f0ea:ff71:8be4:e0ee/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+6622: br0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 34:73:5a:9f:b8:fd brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::3673:5aff:fe9f:b8fd/64 scope link 
+       valid_lft forever preferred_lft forever
+6623: bnd1: <BROADCAST,MULTICAST,MASTER,UP,LOWER_UP> mtu 1500 qdisc noqueue master br1 state UP group default qlen 1000
+    link/ether 5c:6f:69:53:91:70 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::5e6f:69ff:fe53:9170/64 scope link 
+       valid_lft forever preferred_lft forever
+6624: br1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 5c:6f:69:53:91:70 brd ff:ff:ff:ff:ff:ff
+    inet 172.13.19.200/32 brd 172.13.19.200 scope global noprefixroute br1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5e6f:69ff:fe53:9170/64 scope link 
+       valid_lft forever preferred_lft forever
