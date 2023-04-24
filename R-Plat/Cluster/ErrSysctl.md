@@ -27,7 +27,7 @@
 
 
 ## статус
-
+```
 [root@sng-rplat-01 ~]# for node_id in 01 02 03; do ssh root@sng-rplat-$node_id "hostname && "systemctl status systemd-journald.service systemd-journal-flush.service" && echo -e"; done
 
 sng-rplat-01.sgc.oil.gas
@@ -121,4 +121,4 @@ Apr 22 18:05:18 sng-rplat-03.sgc.oil.gas systemd-journal[11482]: Suppressed 281 
    CGroup: /system.slice/systemd-journal-flush.service
 
 Apr 22 18:04:36 sng-rplat-03.sgc.oil.gas systemd[1]: Started Flush Journal to Persistent Storage.
-
+```
