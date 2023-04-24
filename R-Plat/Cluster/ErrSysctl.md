@@ -25,3 +25,100 @@
 
 
 
+
+## статус
+
+[root@sng-rplat-01 ~]# for node_id in 01 02 03; do ssh root@sng-rplat-$node_id "hostname && "systemctl status systemd-journald.service systemd-journal-flush.service" && echo -e"; done
+
+sng-rplat-01.sgc.oil.gas
+● systemd-journald.service - Journal Service
+   Loaded: loaded (/usr/lib/systemd/system/systemd-journald.service; static; vendor preset: disabled)
+   Active: active (running) since Sat 2023-04-22 17:42:46 +05; 1 day 18h ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 11459 (systemd-journal)
+   Status: "Processing requests..."
+    Tasks: 1
+   Memory: 3.7G
+   CGroup: /system.slice/systemd-journald.service
+           └─11459 /usr/lib/systemd/systemd-journald
+
+Apr 22 17:42:46 sng-rplat-01.sgc.oil.gas systemd-journal[11459]: Runtime journal is using 8.0M (max allowed 300.0M, trying to leave 4.0G free of 251.6G available → current limit 300.0M).
+Apr 22 17:42:46 sng-rplat-01.sgc.oil.gas systemd-journal[11459]: Journal started
+Apr 22 17:42:46 sng-rplat-01.sgc.oil.gas systemd-journal[11459]: Permanent journal is using 3.9G (max allowed 4.0G, trying to leave 4.0G free of 24.6G available → current limit 4.0G).
+Apr 22 17:42:46 sng-rplat-01.sgc.oil.gas systemd-journal[11459]: Time spent on flushing to /var is 36.773ms for 2669 entries.
+
+● systemd-journal-flush.service - Flush Journal to Persistent Storage
+   Loaded: loaded (/usr/lib/systemd/system/systemd-journal-flush.service; static; vendor preset: disabled)
+   Active: active (exited) since Sat 2023-04-22 17:42:46 +05; 1 day 18h ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 11466 (code=exited, status=0/SUCCESS)
+    Tasks: 0
+   Memory: 0B
+   CGroup: /system.slice/systemd-journal-flush.service
+
+Apr 22 17:42:46 sng-rplat-01.sgc.oil.gas systemd[1]: Started Flush Journal to Persistent Storage.
+
+sng-rplat-02.sgc.oil.gas
+● systemd-journald.service - Journal Service
+   Loaded: loaded (/usr/lib/systemd/system/systemd-journald.service; static; vendor preset: disabled)
+   Active: active (running) since Sat 2023-04-22 17:57:52 +05; 1 day 18h ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 11697 (systemd-journal)
+   Status: "Processing requests..."
+    Tasks: 1
+   Memory: 3.8G
+   CGroup: /system.slice/systemd-journald.service
+           └─11697 /usr/lib/systemd/systemd-journald
+
+Apr 22 17:57:52 sng-rplat-02.sgc.oil.gas systemd-journal[11697]: Runtime journal is using 8.0M (max allowed 300.0M, trying to leave 4.0G free of 251.6G available → current limit 300.0M).
+Apr 22 17:57:52 sng-rplat-02.sgc.oil.gas systemd-journal[11697]: Journal started
+Apr 22 17:57:52 sng-rplat-02.sgc.oil.gas systemd-journal[11697]: Permanent journal is using 4.0G (max allowed 4.0G, trying to leave 4.0G free of 32.4G available → current limit 4.0G).
+Apr 22 17:57:52 sng-rplat-02.sgc.oil.gas systemd-journal[11697]: Time spent on flushing to /var is 35.434ms for 2675 entries.
+Apr 22 17:58:33 sng-rplat-02.sgc.oil.gas systemd-journal[11697]: Suppressed 85 messages from /
+
+● systemd-journal-flush.service - Flush Journal to Persistent Storage
+   Loaded: loaded (/usr/lib/systemd/system/systemd-journal-flush.service; static; vendor preset: disabled)
+   Active: active (exited) since Sat 2023-04-22 17:57:52 +05; 1 day 18h ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 11706 (code=exited, status=0/SUCCESS)
+    Tasks: 0
+   Memory: 0B
+   CGroup: /system.slice/systemd-journal-flush.service
+
+Apr 22 17:57:52 sng-rplat-02.sgc.oil.gas systemd[1]: Started Flush Journal to Persistent Storage.
+
+sng-rplat-03.sgc.oil.gas
+● systemd-journald.service - Journal Service
+   Loaded: loaded (/usr/lib/systemd/system/systemd-journald.service; static; vendor preset: disabled)
+   Active: active (running) since Sat 2023-04-22 18:04:35 +05; 1 day 18h ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 11482 (systemd-journal)
+   Status: "Processing requests..."
+    Tasks: 1
+   Memory: 3.7G
+   CGroup: /system.slice/systemd-journald.service
+           └─11482 /usr/lib/systemd/systemd-journald
+
+Apr 22 18:04:35 sng-rplat-03.sgc.oil.gas systemd-journal[11482]: Runtime journal is using 8.0M (max allowed 300.0M, trying to leave 4.0G free of 251.6G available → current limit 300.0M).
+Apr 22 18:04:35 sng-rplat-03.sgc.oil.gas systemd-journal[11482]: Journal started
+Apr 22 18:04:35 sng-rplat-03.sgc.oil.gas systemd-journal[11482]: Permanent journal is using 3.9G (max allowed 4.0G, trying to leave 4.0G free of 28.4G available → current limit 4.0G).
+Apr 22 18:04:36 sng-rplat-03.sgc.oil.gas systemd-journal[11482]: Time spent on flushing to /var is 21.078ms for 2523 entries.
+Apr 22 18:05:18 sng-rplat-03.sgc.oil.gas systemd-journal[11482]: Suppressed 281 messages from /
+
+● systemd-journal-flush.service - Flush Journal to Persistent Storage
+   Loaded: loaded (/usr/lib/systemd/system/systemd-journal-flush.service; static; vendor preset: disabled)
+   Active: active (exited) since Sat 2023-04-22 18:04:36 +05; 1 day 18h ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 11489 (code=exited, status=0/SUCCESS)
+    Tasks: 0
+   Memory: 0B
+   CGroup: /system.slice/systemd-journal-flush.service
+
+Apr 22 18:04:36 sng-rplat-03.sgc.oil.gas systemd[1]: Started Flush Journal to Persistent Storage.
+
