@@ -1,0 +1,22 @@
+vstorage -c SNG-RPlat-cl view-license
+
+HWID: 2057.5CF0.65F0.3985.9743.C192.8550.B970
+PCSSTOR
+        owner_name="SNG"
+        status="ACTIVE"
+        version=1.0
+        owner_id=24.92
+        hwid="2057.5CF0.65F0.3985.9743.C192.8550.B970"
+        expiration="12/31/2099 02:00:00"
+        start_date="04/02/2020 02:00:00"
+        issue_date="04/02/2020 11:58:32"
+        graceperiod=600
+        key_number="PCSS.00000092.0000"
+        platform="Linux"
+        product="PCSS"
+        capacity=24576
+        gracecapacity=5
+        replicas=32
+        autorecovery=1
+        autorebalance=1
+        snapshots=1
