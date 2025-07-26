@@ -15,9 +15,84 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jul 26 22:21:14 2025 +05
+Local Time is:    Sun Jul 27 00:40:44 2025 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  60) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (  60) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000e   130   130   039    Old_age   Always       -       4294967295
+  5 Reallocated_Sector_Ct   0x0033   100   100   001    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       25992
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       41
+ 13 Read_Soft_Error_Rate    0x001e   080   080   000    Old_age   Always       -       281474976710655
+170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
+173 Unknown_Attribute       0x0012   099   099   000    Old_age   Always       -       175
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       40
+175 Program_Fail_Count_Chip 0x0012   100   100   010    Old_age   Always       -       174
+179 Used_Rsvd_Blk_Cnt_Tot   0x0033   100   100   010    Pre-fail  Always       -       0
+180 Unused_Rsvd_Blk_Cnt_Tot 0x0032   100   100   000    Old_age   Always       -       12267
+181 Program_Fail_Cnt_Total  0x003a   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x003a   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       20
+195 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
+201 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2654 (41 65535)
+202 End_of_Life             0x0027   100   100   000    Pre-fail  Always       -       0
+233 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       5513327
+234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
+235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       5513327
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       5513327
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       813019
+245 Percent_Life_Remaining  0x0032   099   099   000    Old_age   Always       -       99
+
+SMART Error Log not supported
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Read SMART Selective Self-test Log failed: scsi error unsupported field in scsi command
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -35,9 +110,94 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jul 26 22:21:14 2025 +05
+Local Time is:    Sun Jul 27 00:40:44 2025 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (   2) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (   2) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0032   099   099   000    Old_age   Always       -       4
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       9412
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       2
+170 Available_Reservd_Space 0x0033   099   099   010    Pre-fail  Always       -       0
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       1
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       2
+175 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2487 (2 65535)
+183 SATA_Downshift_Count    0x0032   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error_Count  0x0033   100   100   090    Pre-fail  Always       -       0
+187 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+190 Drive_Temperature       0x0022   081   074   000    Old_age   Always       -       19 (Min/Max 13/26)
+192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       2
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       19
+197 Pending_Sector_Count    0x0012   100   100   000    Old_age   Always       -       0
+199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
+225 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       3380288
+226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       1013
+227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       9
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       564773
+232 Available_Reservd_Space 0x0033   099   099   010    Pre-fail  Always       -       0
+233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
+234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
+235 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2487 (2 65535)
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       3380288
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       338124
+243 NAND_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       4116282
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -56,9 +216,84 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jul 26 22:21:14 2025 +05
+Local Time is:    Sun Jul 27 00:40:44 2025 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  60) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (  60) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000e   130   130   039    Old_age   Always       -       4294967295
+  5 Reallocated_Sector_Ct   0x0033   100   100   001    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       21819
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       42
+ 13 Read_Soft_Error_Rate    0x001e   079   078   000    Old_age   Always       -       281474976710655
+170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
+173 Unknown_Attribute       0x0012   099   099   000    Old_age   Always       -       183
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       41
+175 Program_Fail_Count_Chip 0x0012   100   100   010    Old_age   Always       -       182
+179 Used_Rsvd_Blk_Cnt_Tot   0x0033   100   100   010    Pre-fail  Always       -       0
+180 Unused_Rsvd_Blk_Cnt_Tot 0x0032   100   100   000    Old_age   Always       -       12276
+181 Program_Fail_Cnt_Total  0x003a   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x003a   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       18
+195 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
+201 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2697 (42 65535)
+202 End_of_Life             0x0027   100   100   000    Pre-fail  Always       -       0
+233 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       5686538
+234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
+235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       5686538
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       5686538
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       811095
+245 Percent_Life_Remaining  0x0032   099   099   000    Old_age   Always       -       99
+
+SMART Error Log not supported
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Read SMART Selective Self-test Log failed: scsi error unsupported field in scsi command
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -77,9 +312,84 @@ Form Factor:      2.5 inches
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-3 T13/2161-D revision 5
 SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
-Local Time is:    Sat Jul 26 22:21:14 2025 +05
+Local Time is:    Sun Jul 27 00:40:44 2025 +05
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(    0) seconds.
+Offline data collection
+capabilities: 			 (0x79) SMART execute Offline immediate.
+					No Auto Offline data collection support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   1) minutes.
+Extended self-test routine
+recommended polling time: 	 (  60) minutes.
+Conveyance self-test routine
+recommended polling time: 	 (  60) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000e   130   130   039    Old_age   Always       -       4294967295
+  5 Reallocated_Sector_Ct   0x0033   100   100   001    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       21821
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       42
+ 13 Read_Soft_Error_Rate    0x001e   080   080   000    Old_age   Always       -       281474976710655
+170 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
+173 Unknown_Attribute       0x0012   098   098   000    Old_age   Always       -       212
+174 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       41
+175 Program_Fail_Count_Chip 0x0012   100   100   010    Old_age   Always       -       202
+179 Used_Rsvd_Blk_Cnt_Tot   0x0033   100   100   010    Pre-fail  Always       -       0
+180 Unused_Rsvd_Blk_Cnt_Tot 0x0032   100   100   000    Old_age   Always       -       12270
+181 Program_Fail_Cnt_Total  0x003a   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x003a   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       19
+195 Uncorrectable_Error_Cnt 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 CRC_Error_Count         0x003e   100   100   000    Old_age   Always       -       0
+201 Power_Loss_Cap_Test     0x0033   100   100   010    Pre-fail  Always       -       2774 (42 65535)
+202 End_of_Life             0x0027   100   100   000    Pre-fail  Always       -       0
+233 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       5508032
+234 Thermal_Throttle_Status 0x0032   100   100   000    Old_age   Always       -       0/0
+235 Unknown_Attribute       0x000b   100   100   000    Pre-fail  Always       -       5508032
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       5508032
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       759587
+245 Percent_Life_Remaining  0x0032   098   098   000    Old_age   Always       -       98
+
+SMART Error Log not supported
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+Read SMART Selective Self-test Log failed: scsi error unsupported field in scsi command
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -100,10 +410,56 @@ Logical Unit id:      0x5000c500dee85a47
 Serial number:        WFKAY35S
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:44 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     24 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 27 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  64
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1079
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 2595876204
+  Blocks received from initiator = 1345530773
+  Blocks read from cache and sent to initiator = 2688376052
+  Number of read and write commands whose size <= segment size = 264495954
+  Number of read and write commands whose size > segment size = 0
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22005.28
+  number of minutes until next internal SMART test = 43
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   2319513059        0         0  2319513059          0      37033.324           0
+write:         0        0         1         1          1      11992.303           0
+verify: 97390279        0         0  97390279          0         50.660           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -124,10 +480,56 @@ Logical Unit id:      0x5000c500dee66557
 Serial number:        WFKATA1W
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:45 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned <not available>
+Power on minutes since format <not available>
+Current Drive Temperature:     24 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 27 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  63
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1080
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 1767645088
+  Blocks received from initiator = 960994833
+  Blocks read from cache and sent to initiator = 737109809
+  Number of read and write commands whose size <= segment size = 737270691
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.82
+  number of minutes until next internal SMART test = 59
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:    3701133        2         0   3701135          2     197192.047           0
+write:         0        0         7         7          7      74448.090           0
+verify: 509281435        0         0  509281435          0        264.832           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -148,10 +550,56 @@ Logical Unit id:      0x5000c500dee67ebf
 Serial number:        WFKAT9S2
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:46 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     23 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 27 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  63
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1078
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 1215550276
+  Blocks received from initiator = 3128640031
+  Blocks read from cache and sent to initiator = 687794955
+  Number of read and write commands whose size <= segment size = 734266057
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.88
+  number of minutes until next internal SMART test = 18
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   3736675303        4         0  3736675307          4     183485.318           0
+write:         0        0         1         1          1      77787.604           0
+verify: 546482566        0         0  546482566          0        284.174           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -172,10 +620,56 @@ Logical Unit id:      0x5000c500dee84ba7
 Serial number:        WFKAXTRV
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:46 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     23 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 27 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  64
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1078
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 3236437145
+  Blocks received from initiator = 1957156615
+  Blocks read from cache and sent to initiator = 2711087482
+  Number of read and write commands whose size <= segment size = 266732363
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.83
+  number of minutes until next internal SMART test = 14
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   2934474553        0         0  2934474553          0      37365.361           0
+write:         0        0         0         0          0      12286.471           0
+verify: 99420065        0         0  99420065          0         51.714           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       1                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -195,10 +689,41 @@ Logical Unit id:      0x5000039b186be6e1
 Serial number:        81P0A2W7FQVF
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:47 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     20 C
+Drive Trip Temperature:        65 C
+
+Manufactured in week 34 of year 2021
+Specified cycle count over device lifetime:  50000
+Accumulated start-stop cycles:  48
+Specified load-unload count over device lifetime:  600000
+Accumulated load-unload cycles:  33482
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0       52        52        52        150    1358266.216           0
+write:         0        0         0         0          0      18160.534           0
+verify:        0        0         0         0          0          8.416           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                   -       1                 - [-   -    -]
+
+Long (extended) Self-test duration: 6429 seconds [107.2 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -218,10 +743,41 @@ Logical Unit id:      0x5000039b1868394d
 Serial number:        81X0A16DFQVF
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:47 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     21 C
+Drive Trip Temperature:        65 C
+
+Manufactured in week 34 of year 2021
+Specified cycle count over device lifetime:  50000
+Accumulated start-stop cycles:  48
+Specified load-unload count over device lifetime:  600000
+Accumulated load-unload cycles:  4114
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0     3215      3215      3215      61014    2151401.372           0
+write:         0        0         0         0          0     122138.395           0
+verify:        0        0         0         0          0          8.374           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       2                 - [-   -    -]
+# 2  Background short  Completed                   -       1                 - [-   -    -]
+
+Long (extended) Self-test duration: 6429 seconds [107.2 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -242,10 +798,56 @@ Logical Unit id:      0x5000c500d7a55ab7
 Serial number:        WFKATMLR
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:48 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     23 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  63
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1080
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 2493151434
+  Blocks received from initiator = 761557010
+  Blocks read from cache and sent to initiator = 2690728651
+  Number of read and write commands whose size <= segment size = 268665104
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.83
+  number of minutes until next internal SMART test = 47
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   2067088563        1         0  2067088564          1      36977.960           0
+write:         0        0        77        77         77      11663.052           0
+verify: 101126312        1         0  101126313          1         52.607           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -266,10 +868,58 @@ Logical Unit id:      0x5000c500d7a5875f
 Serial number:        WFKAWFV7
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:48 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned <not available>
+Power on minutes since format <not available>
+Current Drive Temperature:     24 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 30 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  72
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1090
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 2183533705
+  Blocks received from initiator = 2958710754
+  Blocks read from cache and sent to initiator = 918152449
+  Number of read and write commands whose size <= segment size = 1838235782
+  Number of read and write commands whose size > segment size = 6
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22009.20
+  number of minutes until next internal SMART test = 52
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   2060585542        5         0  2060585547          5     384797.759           0
+write:         0        0         2         2          2     189923.032           0
+verify: 922153474        0         0  922153474          0        479.553           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       7                 - [-   -    -]
+# 2  Background short  Completed                  96       6                 - [-   -    -]
+# 3  Reserved(7)       Aborted (by user command)  80       6                 - [-   -    -]
+# 4  Background short  Completed                  96       5                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -290,10 +940,56 @@ Logical Unit id:      0x5000c500d7a54dbb
 Serial number:        WFKAWH0K
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:49 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     24 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  63
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1082
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 1291180826
+  Blocks received from initiator = 3981042185
+  Blocks read from cache and sent to initiator = 993103903
+  Number of read and write commands whose size <= segment size = 1878444418
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.50
+  number of minutes until next internal SMART test = 52
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   294956594        8         0  294956602          8     411128.150           0
+write:         0        0         5         5          5     181430.021           0
+verify: 934081070        0         0  934081070          0        485.735           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       1                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -314,10 +1010,56 @@ Logical Unit id:      0x5000c500d7a5d1e7
 Serial number:        WFKAMNLK
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:50 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned <not available>
+Power on minutes since format <not available>
+Current Drive Temperature:     23 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 30 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  64
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1081
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 601000187
+  Blocks received from initiator = 4149943097
+  Blocks read from cache and sent to initiator = 2399972421
+  Number of read and write commands whose size <= segment size = 266362622
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.88
+  number of minutes until next internal SMART test = 26
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   296325725        0         0  296325725          0      35993.255           0
+write:         0        0         0         0          0      13442.279           0
+verify: 102665777        0         0  102665777          0         53.393           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -338,10 +1080,56 @@ Logical Unit id:      0x5000c500d7a5c68f
 Serial number:        WFKAWG0B
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:51 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     24 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 30 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  64
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1081
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 2473976243
+  Blocks received from initiator = 3104112472
+  Blocks read from cache and sent to initiator = 655967184
+  Number of read and write commands whose size <= segment size = 1867084044
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.77
+  number of minutes until next internal SMART test = 57
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   3007818278        3         0  3007818281          3     425170.311           0
+write:         0        0        18        18         18     180892.377           0
+verify: 882521525        0         0  882521525          0        458.926           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       1                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -360,10 +1148,40 @@ Logical Unit id:      0x5000c500c22e112b
 Serial number:        WBM1LTNF
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:52 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     26 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2019
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  78
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  2283
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0        0         0         0          0        974.404           0
+write:         0        0         0         0          0        280.060           0
+verify:        0        0         0         0          0          0.026           0
+
+Non-medium error count:      572
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Background short  Completed                   -   28900                 - [-   -    -]
+
+Long (extended) Self-test duration: 12120 seconds [202.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -382,10 +1200,40 @@ Logical Unit id:      0x5000c500c22e1caf
 Serial number:        WBM1LTE6
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:14 2025 +05
+Local Time is:        Sun Jul 27 00:40:52 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     27 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2019
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  88
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  2290
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0        0         0         0          0       1748.042           0
+write:         0        0         0         0          0        388.383           0
+verify:        0        0         0         0          0          0.248           0
+
+Non-medium error count:      583
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Background short  Completed                   -   28893                 - [-   -    -]
+
+Long (extended) Self-test duration: 12120 seconds [202.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -404,10 +1252,40 @@ Logical Unit id:      0x5000c500c22e6743
 Serial number:        WBM1LRY0
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:53 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     27 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2019
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  82
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  2372
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0        0         0         0          0     332863.740           0
+write:         0        0         0         0          0      69049.102           0
+verify:        0        0         0         0          0        239.270           0
+
+Non-medium error count:      580
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Background short  Completed                   -   28964                 - [-   -    -]
+
+Long (extended) Self-test duration: 12120 seconds [202.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -426,10 +1304,35 @@ Logical Unit id:      0x5000c500c22e206f
 Serial number:        WBM1M2HR
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:54 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     27 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2019
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  87
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  2288
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0        0         0         0          0        723.061           0
+write:         0        0         0         0          0        301.461           0
+verify:        0        0         0         0          0          0.011           0
+
+Non-medium error count:      425
+
+No Self-tests have been logged
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -444,14 +1347,39 @@ Logical block size:   512 bytes
 Physical block size:  4096 bytes
 Rotation Rate:        10500 rpm
 Form Factor:          2.5 inches
-Logical Unit id:      0x5000c500ae480707
-Serial number:        WBM1K8AL
+Logical Unit id:      0x5000c500c22e18ff
+Serial number:        WBM1LTH9
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:55 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     27 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2019
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  61
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  2272
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0        0         0         0          0     790548.284           0
+write:         0        0         0         0          0     290621.519           0
+verify:        0        0         0         0          0       1358.256           0
+
+Non-medium error count:      165
+
+No Self-tests have been logged
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -470,10 +1398,35 @@ Logical Unit id:      0x5000c500c22e3173
 Serial number:        WBM1LSZ0
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:55 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Current Drive Temperature:     27 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 29 of year 2019
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  91
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  2247
+Elements in grown defect list: 0
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:          0        0         0         0          0     629607.375           0
+write:         0        0         0         0          0     147079.831           0
+verify:        0        0         0         0          0        576.452           0
+
+Non-medium error count:      469
+
+No Self-tests have been logged
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -494,10 +1447,56 @@ Logical Unit id:      0x5000c500dee4c53f
 Serial number:        WFKAX433
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:56 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     35 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 27 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  63
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1080
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 24322236
+  Blocks received from initiator = 184593
+  Blocks read from cache and sent to initiator = 2216554
+  Number of read and write commands whose size <= segment size = 62265
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.98
+  number of minutes until next internal SMART test = 51
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:    3104198        0         0   3104198          0          1.626           0
+write:         0        0         0         0          0         29.832           0
+verify: 21169224        0         0  21169224          0         11.021           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -518,10 +1517,56 @@ Logical Unit id:      0x5000c500d7a5ac6b
 Serial number:        WFKAX2GL
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:57 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     35 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 30 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  63
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1082
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 314387008
+  Blocks received from initiator = 3689286389
+  Blocks read from cache and sent to initiator = 1607057584
+  Number of read and write commands whose size <= segment size = 1889376604
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.52
+  number of minutes until next internal SMART test = 41
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   2802123473        1         0  2802123474          1     399415.482           0
+write:         0        0         6         6          6     203658.247           0
+verify: 1006820565        0         0  1006820565          0        523.555           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       1                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -542,10 +1587,56 @@ Logical Unit id:      0x5000c500d7a5c3df
 Serial number:        WFKAWFR4
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:58 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
+
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     34 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 30 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  63
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1078
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 812484503
+  Blocks received from initiator = 2201741031
+  Blocks read from cache and sent to initiator = 3804395655
+  Number of read and write commands whose size <= segment size = 1040928147
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.97
+  number of minutes until next internal SMART test = 55
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   4211575996        0         0  4211575996          0     210138.606           0
+write:         0        0         0         0          0     108781.033           0
+verify: 426678400        0         0  426678400          0        221.888           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
 
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
@@ -566,15 +1657,57 @@ Logical Unit id:      0x5000c500d7a5e08f
 Serial number:        WFKAMNQQ
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:59 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
 
-smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
-Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
 
-Smartctl open device: /dev/sdz failed: No such device or address
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned = 0
+Power on minutes since format <not available>
+Current Drive Temperature:     34 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 30 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  71
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1088
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 1843746285
+  Blocks received from initiator = 969502052
+  Blocks read from cache and sent to initiator = 1057802678
+  Number of read and write commands whose size <= segment size = 1735503312
+  Number of read and write commands whose size > segment size = 6
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22007.67
+  number of minutes until next internal SMART test = 1
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   4163275814        2         0  4163275816          2     384630.448           0
+write:         0        0         2         2          2     182068.240           0
+verify: 904195959        0         0  904195959          0        470.175           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       6                 - [-   -    -]
+# 2  Background short  Completed                  96       4                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
+
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
 
@@ -594,12 +1727,58 @@ Logical Unit id:      0x5000c500dee0ecb3
 Serial number:        WFKATJWC
 Device type:          disk
 Transport protocol:   SAS (SPL-3)
-Local Time is:        Sat Jul 26 22:21:15 2025 +05
+Local Time is:        Sun Jul 27 00:40:59 2025 +05
 SMART support is:     Available - device has SMART capability.
 SMART support is:     Enabled
 Temperature Warning:  Disabled or Not Supported
 
+=== START OF READ SMART DATA SECTION ===
+SMART Health Status: OK
+
+Grown defects during certification <not available>
+Total blocks reassigned during format <not available>
+Total new blocks reassigned <not available>
+Power on minutes since format <not available>
+Current Drive Temperature:     32 C
+Drive Trip Temperature:        60 C
+
+Manufactured in week 27 of year 2021
+Specified cycle count over device lifetime:  10000
+Accumulated start-stop cycles:  65
+Specified load-unload count over device lifetime:  300000
+Accumulated load-unload cycles:  1080
+Elements in grown defect list: 0
+
+Vendor (Seagate Cache) information
+  Blocks sent to initiator = 33610978
+  Blocks received from initiator = 37085751
+  Blocks read from cache and sent to initiator = 157370
+  Number of read and write commands whose size <= segment size = 20149
+  Number of read and write commands whose size > segment size = 2
+
+Vendor (Seagate/Hitachi) factory information
+  number of hours powered up = 22004.90
+  number of minutes until next internal SMART test = 57
+
+Error counter log:
+           Errors Corrected by           Total   Correction     Gigabytes    Total
+               ECC          rereads/    errors   algorithm      processed    uncorrected
+           fast | delayed   rewrites  corrected  invocations   [10^9 bytes]  errors
+read:   12502228        0         0  12502228          0          6.521           0
+write:         0        0         0         0          0         50.534           0
+verify: 21051820        0         0  21051820          0         10.957           0
+
+Non-medium error count:        0
+
+SMART Self-test log
+Num  Test              Status                 segment  LifeTime  LBA_first_err [SK ASC ASQ]
+     Description                              number   (hours)
+# 1  Reserved(7)       Completed                  80       3                 - [-   -    -]
+# 2  Background short  Completed                  96       2                 - [-   -    -]
+
+Long (extended) Self-test duration: 6723 seconds [112.0 minutes]
+
 smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
 Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
 
-Smartctl open device: /dev/sdab failed: DELL or MegaRaid controller, please try adding '-d megaraid,N'
+Smartctl open device: /dev/sdaa failed: DELL or MegaRaid controller, please try adding '-d megaraid,N'
