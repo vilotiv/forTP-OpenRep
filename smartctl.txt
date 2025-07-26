@@ -1,0 +1,605 @@
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Dell Certified Intel S4x00/D3-S4x10 Series SSDs
+Device Model:     SSDSC2KG960G8R
+Serial Number:    PHYG051001WG960CGN
+LU WWN Device Id: 5 5cd2e4 1532063f4
+Add. Product Id:  DELL(tm)
+Firmware Version: XCV1DL69
+User Capacity:    960,197,124,096 bytes [960 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sat Jul 26 22:21:14 2025 +05
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Intel S4510/S4610/S4500/S4600 Series SSDs
+Device Model:     INTEL SSDSC2KG960G8
+Serial Number:    BTYG209409UT960CGN
+LU WWN Device Id: 5 5cd2e4 1558ba4a9
+Firmware Version: XCV10132
+User Capacity:    960,197,124,096 bytes [960 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sat Jul 26 22:21:14 2025 +05
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Dell Certified Intel S4x00/D3-S4x10 Series SSDs
+Device Model:     SSDSC2KG960G8R
+Serial Number:    PHYG051000KX960CGN
+LU WWN Device Id: 5 5cd2e4 153203766
+Add. Product Id:  DELL(tm)
+Firmware Version: XCV1DL69
+User Capacity:    960,197,124,096 bytes [960 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sat Jul 26 22:21:14 2025 +05
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Dell Certified Intel S4x00/D3-S4x10 Series SSDs
+Device Model:     SSDSC2KG960G8R
+Serial Number:    PHYG051001T5960CGN
+LU WWN Device Id: 5 5cd2e4 153206397
+Add. Product Id:  DELL(tm)
+Firmware Version: XCV1DL69
+User Capacity:    960,197,124,096 bytes [960 GB]
+Sector Sizes:     512 bytes logical, 4096 bytes physical
+Rotation Rate:    Solid State Device
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ACS-3 T13/2161-D revision 5
+SATA Version is:  SATA 3.2, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Sat Jul 26 22:21:14 2025 +05
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500dee85a47
+Serial number:        WFKAY35S
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500dee66557
+Serial number:        WFKATA1W
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500dee67ebf
+Serial number:        WFKAT9S2
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500dee84ba7
+Serial number:        WFKAXTRV
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               TOSHIBA
+Product:              AL15SEB120NY
+Revision:             EF06
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000039b186be6e1
+Serial number:        81P0A2W7FQVF
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               TOSHIBA
+Product:              AL15SEB120NY
+Revision:             EF06
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000039b1868394d
+Serial number:        81X0A16DFQVF
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a55ab7
+Serial number:        WFKATMLR
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a5875f
+Serial number:        WFKAWFV7
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a54dbb
+Serial number:        WFKAWH0K
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a5d1e7
+Serial number:        WFKAMNLK
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a5c68f
+Serial number:        WFKAWG0B
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HP
+Product:              EG002400JWJNT
+Revision:             HPD4
+Compliance:           SPC-4
+User Capacity:        2,400,476,553,216 bytes [2.40 TB]
+Logical block size:   512 bytes
+Physical block size:  4096 bytes
+Rotation Rate:        10500 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500c22e112b
+Serial number:        WBM1LTNF
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HP
+Product:              EG002400JWJNT
+Revision:             HPD4
+Compliance:           SPC-4
+User Capacity:        2,400,476,553,216 bytes [2.40 TB]
+Logical block size:   512 bytes
+Physical block size:  4096 bytes
+Rotation Rate:        10500 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500c22e1caf
+Serial number:        WBM1LTE6
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:14 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HP
+Product:              EG002400JWJNT
+Revision:             HPD4
+Compliance:           SPC-4
+User Capacity:        2,400,476,553,216 bytes [2.40 TB]
+Logical block size:   512 bytes
+Physical block size:  4096 bytes
+Rotation Rate:        10500 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500c22e6743
+Serial number:        WBM1LRY0
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HP
+Product:              EG002400JWJNT
+Revision:             HPD4
+Compliance:           SPC-4
+User Capacity:        2,400,476,553,216 bytes [2.40 TB]
+Logical block size:   512 bytes
+Physical block size:  4096 bytes
+Rotation Rate:        10500 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500c22e206f
+Serial number:        WBM1M2HR
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HP
+Product:              EG002400JWJNT
+Revision:             HPD4
+Compliance:           SPC-4
+User Capacity:        2,400,476,553,216 bytes [2.40 TB]
+Logical block size:   512 bytes
+Physical block size:  4096 bytes
+Rotation Rate:        10500 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500ae480707
+Serial number:        WBM1K8AL
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               HP
+Product:              EG002400JWJNT
+Revision:             HPD4
+Compliance:           SPC-4
+User Capacity:        2,400,476,553,216 bytes [2.40 TB]
+Logical block size:   512 bytes
+Physical block size:  4096 bytes
+Rotation Rate:        10500 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500c22e3173
+Serial number:        WBM1LSZ0
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Enabled
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500dee4c53f
+Serial number:        WFKAX433
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a5ac6b
+Serial number:        WFKAX2GL
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a5c3df
+Serial number:        WFKAWFR4
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500d7a5e08f
+Serial number:        WFKAMNQQ
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+Smartctl open device: /dev/sdz failed: No such device or address
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Vendor:               SEAGATE
+Product:              ST1200MM0099
+Revision:             ST34
+Compliance:           SPC-4
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+Logical block size:   512 bytes
+Formatted with type 2 protection
+8 bytes of protection information per logical block
+LU is fully provisioned
+Rotation Rate:        10000 rpm
+Form Factor:          2.5 inches
+Logical Unit id:      0x5000c500dee0ecb3
+Serial number:        WFKATJWC
+Device type:          disk
+Transport protocol:   SAS (SPL-3)
+Local Time is:        Sat Jul 26 22:21:15 2025 +05
+SMART support is:     Available - device has SMART capability.
+SMART support is:     Enabled
+Temperature Warning:  Disabled or Not Supported
+
+smartctl 7.0 2019-05-21 r4916 [x86_64-linux-3.10.0-1160.105.1.rv7.214.3] (local build)
+Copyright (C) 2002-18, Bruce Allen, Christian Franke, www.smartmontools.org
+
+Smartctl open device: /dev/sdab failed: DELL or MegaRaid controller, please try adding '-d megaraid,N'
