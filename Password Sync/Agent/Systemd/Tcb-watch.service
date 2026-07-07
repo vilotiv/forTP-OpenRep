@@ -1,0 +1,12 @@
+[Unit]
+Description=Password Sync TCB watcher
+After=network.target
+
+[Service]
+Type=simple
+User=vadmin
+ExecStart=/opt/password_sync/bin/tcb-watch.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
